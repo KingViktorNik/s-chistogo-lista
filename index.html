@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>С чистого листа</title>
-    <link rel="stylesheet" href="/fonts/fonts.css">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header class="header content-section content-section_theme_dark">
@@ -15,7 +15,7 @@
       <nav>
         <ul class="header__menu-list">
           <li class="header__menu-item">
-            <a class="header__menu-item_active" href="#0">Главная</a>
+            <a class="header__menu-link header__menu-item_active" href="#0">Главная</a>
           </li>
           <li class="header__menu-item">
             <a class="header__menu-link" href="#0">О нас</a>
@@ -28,19 +28,17 @@
     </header>
     <main>
       <section class="cover content-section content-section_theme_dark">
-        <header>
           <h1 class="cover_title">
             <span class="text-left">С</span>
             <span class="text-center">чистого</span>
             <span class="text-right">листа</span>
           </h1>
-        </header>
       </section>
       <section class="intro content-section content-section_theme_dark">
-        <header class="intro__heading">
+        <div class="intro__heading">
           <h2 class="intro__title content-section">8 способов борьбы со страхом чистого листа</h2>
           <time class="intro__date" datetime="2022-06-05">05.06.2022 г.</time>
-        </header>
+        </div>
         <div>
           <p class="intro__main-text">
             Начинать что-то новое — тяжело и страшно. Даже если это просто небольшой фрагмент кода. Или текст. Например, прежде чем написать здесь что-то
@@ -61,7 +59,7 @@
         </h2>
         </header>
         <div>
-          <p class="intro__main-text content-section__introduction">
+          <p class="content-section__introduction">
             Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего объёма работы, которую предстоит сделать. Усилия, той точки, которую нужно
             преодолеть, чтобы переключить мозг из состояния паники в состояние потока. Причин, почему первые усилия даются так сложно, может быть очень много.
             Вот основные:
@@ -104,7 +102,7 @@
           </h2>
         </header>
         <div>
-          <p class="content-section__introduction">
+          <p class="content-section__introduction row_content">
             Чаще всего страх чистого листа появляется не из-за чего-то одного, а из-за совокупности нескольких факторов. Вот что может помочь:
           </p>
           <ul class="cards-list">
@@ -112,7 +110,7 @@
               <article class="card card_theme_dark">
                 <div class="card__author">
                   <img class="card__author-photo" src="images/polyarinov.png" alt="фотография Алексей Поляринов">
-                  <h4>Алексей Поляринов</h4>
+                  <p class="card__author-name">Алексей Поляринов</p>
                 </div>
                 <div class="card__content">
                   <h3 class="card__title">
@@ -129,10 +127,10 @@
             <li>
               <article class="card card_theme_bright">
                 <div class="card__content">
-                  <h3 class="card__title">
+                  <h3 class="card__title card_text-only">
                     Поставить перед собой рамку для фотографии
                   </h3>
-                  <p>
+                  <p class="card__text">
                     Самую обычную: 10 на 15 сантиметров. Уже от одного ощущения, что предстоит работа над большой и сложной задачей, может пропасть всякое желание за неё браться. В такие
                     моменты хорошо помогает загнать задачу в рамки — в прямом смысле. Сосредоточьтесь на том, чтобы заполнить только пространство 10х15 сантиметров. Что дальше — пока неважно.
                   </p>
@@ -144,13 +142,13 @@
               <article class="card card_theme_dark">
                 <div class="card__author">
                   <img class="card__author-photo" src="images/bunin.png" alt="фотография Иван Бунин">
-                  <h4>Иван Бунин</h4>
+                  <p class="card__author-name">Иван Бунин</p>
                 </div>
                 <div class="card__content">
                   <h3 class="card__title">
                     Сделать из задачи рутину
                   </h3>
-                  <p>
+                  <p class="card__text">
                     <q>Писать стихи нужно каждый день, подобно тому как скрипач или пианист непременно должен каждый день без пропусков по нескольку часов играть на своём инструменте.
                     В противном случае ваш талант неизбежно оскудеет, высохнет, подобно колодцу, откуда долгое время не берут воду. А о чём писать? О чём угодно. Если у вас в данное
                     время нет никакой темы, идеи, то пишите просто обо всём, что увидите</q>, — такой совет своему приятелю дал Иван Бунин. Нет повода ему не следовать.
@@ -165,8 +163,8 @@
     <footer class="footer content-section content-section_theme_dark">
       <p>© VЁRSTKA</p>
       <ul class="footer__links">
-        <li class="links-list__item"><a class="footer_link" href="#0">ВК</a></li>
-        <li class="links-list__item"><a class="footer_link" href="#0">Ютуб</a></li>
+        <li class="links-list__item"><a class="footer_link" href="#0" target="_blank">ВК</a></li>
+        <li class="links-list__item"><a class="footer_link" href="#0" target="_blank">Ютуб</a></li>
       </ul>
     </footer>
   </body>

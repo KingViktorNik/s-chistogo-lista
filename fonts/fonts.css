@@ -8,11 +8,11 @@
     url(/fonts/ebgaramondmedium.woff2) format('woff2'),
     url(/fonts/ebgaramondmedium.woff) format('woff'),
     url(/fonts/ebgaramondmedium.ttf) format('truetype');
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @font-face {
-  font-family: 'EB Garamond Regular';
+  font-family: 'EB Garamond';
   src:
       local('EB Garamond Regular'),
       local('EBGaramondRegular'),
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-  font-family: 'Inter Bold';
+  font-family: 'Inter';
   src:
     local('Inter Bold'),
     local('InterBold'),
