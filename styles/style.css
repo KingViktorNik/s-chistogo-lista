@@ -17,7 +17,7 @@
   color: var(--theme-dark-color-text);
 }
 
-.content-section_theme_bright, .card_theme_bright{
+.content-section_theme_bright, .card_theme_bright {
   background-color: var(--theme-bright-color);
   color: #131313;
 }
@@ -210,6 +210,6 @@
 }
 
 .footer_link {
-  color: var(--theme-dark-color-text);;
+  color: var(--theme-dark-color-text);
   text-decoration: none;
 }
